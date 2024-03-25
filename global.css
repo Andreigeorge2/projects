@@ -40,14 +40,16 @@ font-size: 50px;
 color: #3a4f39;
 }
 
-
-.img-test { 
-  background-image: var(--cta-background);
-  background-size:cover;
-  width: 200px;
-  height: 200px;
-}
+.btn.primary {
+  padding: 17px;
+  padding-bottom: 17px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
  
+background-color: var(--white);
+border: 1px solid var(--dark-green);
+}
  
 
 
