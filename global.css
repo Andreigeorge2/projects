@@ -2,31 +2,49 @@
 
 /* define global variables */
 :root {
---black: #2d2e2e;
---dark-green: #3a4f39;
---grey: #ababab;
---light-grey: #f6f6f6;
---white: #ffffff;
---light-green: #eff6f3;
+  --black: #2d2e2e;
+  --dark-green: #3a4f39;
+  --grey: #ababab;
+  --light-grey: #f6f6f6;
+  --white: #ffffff;
+  --light-green: #eff6f3;
+
+--cta-background: url("https://link.tenxbase.com/cta-background");
+--cta-hills:  url(https://link.tenxbase.com/cta-hills);
+--cta-house:  url(https://link.tenxbase.com/cta-house);
+
 }
-    
-    h1-text {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-size: 50px;
+.h1-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
 }
- 
+
+
 .regular-text {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
-line-height: 22px;
+  line-height: 22px;
 }
-  
-  .button-text {
+
+
+.button-text {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
+}
+
+
+.img-test   {
+background-image: var(--cta-background);
+background-size:cover;
+width: 200px;
+height: 200px;
+
+}
   
+
+
+
  
-  }
