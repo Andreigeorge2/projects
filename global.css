@@ -20,29 +20,41 @@
   font-size: 50px;
 }
 
-
 .regular-text {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-}
+}  
 
-
-.button-text {
+.button-text  {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 18px;
+}  
+  
+.link {
+font-family:  "Inter", sans-serif;
+font-weight:700;
+font-size: 50px;
+color: #3a4f39;
 }
 
 
-.img-test   {
-background-image: var(--cta-background);
-background-size:cover;
-width: 200px;
-height: 200px;
-
+.img-test { 
+  background-image: var(--cta-background);
+  background-size:cover;
+  width: 200px;
+  height: 200px;
 }
+ 
+ 
+
+
+
+
+
+
   
 
 
