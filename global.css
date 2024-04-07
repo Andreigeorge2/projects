@@ -40,23 +40,34 @@ font-size: 50px;
 color: #3a4f39;
 }
 
-
-.img-test { 
-  background-image: var(--cta-background);
-  background-size:cover;
-  width: 200px;
-  height: 200px;
+.btn {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 4px;
+  border: 1px solid var(--dark-green);
 }
- 
- 
 
 
 
+.btn-primary {
+  color: var(--white);
+  background-color: var(--dark-green);
+}
+
+.btn-primary:hover {
+  background-color: #283a27;
+  border-color: #283a27;
+}
+
+.btn-secondary {
+ color: var(--dark-green);
+ background-color: var(--white);
+}
 
 
-
-  
-
-
-
- 
+.btn-secondary:hover {
+color: #213220;
+border-color: #213220;
+}
